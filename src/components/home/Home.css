@@ -1,0 +1,9 @@
+.rotate-cross{
+    transform: rotate(0deg);
+    transition: transform 0.25s ease-in-out;
+}
+
+.rotate-plus{
+    transform: rotate(45deg);
+    transition: transform 0.25s ease-in-out;
+}
