@@ -214,7 +214,7 @@ const Home = () => {
                 <br />
                 <div className=' flex sm:flex-row flex-col justify-center items-center w-11/12 md:w-9/12 lg:w-11/12 m-auto lg:gap-2 gap-3'>
                     <div id='email-phone' className=' border border-white/60 rounded w-11/12 sm:w-8/12 md:w-7/12 flex flex-col justify-center items-start bg-black/60 px-2 has-[:focus]:outline has-[:focus]:outline-offset-2 has-[:focus]:outline-white'>
-                        <input type="email" id='signin' className='border-1 border-red-900 translate-y-4 bg-transparent border-none outline-none text-white w-full peer'/>
+                        <input type="email" id='signin' className='border-1 border-red-900 translate-y-4 bg-transparent border-none outline-none text-white w-full peer caret-red-600'/>
                         <label htmlFor='signin' className=' text-white -translate-y-4 peer-focus:-translate-y-7 peer-focus:scale-75 transition duration-300 ease-in-out drop-shadow-md'>Email address</label>
                     </div>
                     <button className='text-white bg-[#e50914] rounded py-2 px-4 hover:bg-red-700 lg:font-medium lg:text-2xl md:text-xl sm:py-[12px] md:py-[10px] lg:py-[10px] lg:px-4 drop-shadow-md transition duration-300 ease-in-out'>Get Started &gt; </button>
